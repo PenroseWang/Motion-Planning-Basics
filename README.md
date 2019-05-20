@@ -9,7 +9,7 @@ Search-based and sampling-based planning algorithms
 
 ## Overview
 
-Some basic search-based and sampling-based motion planning algorithms are implemented using Python including A$$^*$$, RTAA$$^*$$ and RRT$$^*$$ algorithm. Several maps with different difficulties are tested to compare the performance of two kinds of algorithm under different situations.
+Some basic search-based and sampling-based motion planning algorithms are implemented using Python including A<sup>\*</sup>, RTAA<sup>\*</sup> and RRT<sup>\*</sup> algorithm. Several maps with different difficulties are tested to compare the performance of two kinds of algorithm under different situations.
 
 ## Requirements & Installation
 
@@ -42,10 +42,10 @@ Detailed problem formulation and technical approach are included in [Planning Al
 
 
 
-|            A$$^*$$ (Euclidean heuristic)            |           A$$^*$$ (diagonal heuristic)            |
+|       RTAA<sup>\*</sup> (Euclidean heuristic)       |      RTAA<sup>\*</sup> (diagonal heuristic)       |
 | :-------------------------------------------------: | :-----------------------------------------------: |
 | <img src="results_gif/single_cube_Euclidean.gif"/>  | <img src="results_gif/single_cube_diagonal.gif"/> |
-|             **RRT$$^*$$ (unsmoothed)**              |             **RRT$$^*$$ (smoothed)**              |
+|          **RRT<sup>\*</sup> (unsmoothed)**          |          **RRT<sup>\*</sup> (smoothed)**          |
 | <img src="results_gif/single_cube_unsmoothed.gif"/> | <img src="results_gif/single_cube_smoothed.gif"/> |
 
 
@@ -54,10 +54,10 @@ Detailed problem formulation and technical approach are included in [Planning Al
 
 #### Map "flappy_bird":
 
-|            A$$^*$$ (Euclidean heuristic)            |           A$$^*$$ (diagonal heuristic)            |
+|       RTAA<sup>\*</sup> (Euclidean heuristic)       |      RTAA<sup>\*</sup> (diagonal heuristic)       |
 | :-------------------------------------------------: | :-----------------------------------------------: |
 | <img src="results_gif/flappy_bird_Euclidean.gif"/>  | <img src="results_gif/flappy_bird_diagonal.gif"/> |
-|             **RRT$$^*$$ (unsmoothed)**              |             **RRT$$^*$$ (smoothed)**              |
+|          **RRT<sup>\*</sup> (unsmoothed)**          |          **RRT<sup>\*</sup> (smoothed)**          |
 | <img src="results_gif/flappy_bird_unsmoothed.gif"/> | <img src="results_gif/flappy_bird_smoothed.gif"/> |
 
 
@@ -66,10 +66,10 @@ Detailed problem formulation and technical approach are included in [Planning Al
 
 
 
-|         A$$^*$$ (Euclidean heuristic)         |        A$$^*$$ (diagonal heuristic)         |
+|    RTAA<sup>\*</sup> (Euclidean heuristic)    |   RTAA<sup>\*</sup> (diagonal heuristic)    |
 | :-------------------------------------------: | :-----------------------------------------: |
 | <img src="results_gif/monza_Euclidean.gif"/>  | <img src="results_gif/monza_diagonal.gif"/> |
-|          **RRT$$^*$$ (unsmoothed)**           |          **RRT$$^*$$ (smoothed)**           |
+|       **RRT<sup>\*</sup> (unsmoothed)**       |       **RRT<sup>\*</sup> (smoothed)**       |
 | <img src="results_gif/monza_unsmoothed.gif"/> | <img src="results_gif/monza_smoothed.gif"/> |
 
 
